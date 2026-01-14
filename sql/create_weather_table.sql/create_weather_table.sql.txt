@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS weather_data_scd (
+    id SERIAL PRIMARY KEY,
+    city TEXT,
+    country TEXT,
+    temperature_c FLOAT,
+    humidity INT,
+    pressure INT,
+    wind_speed FLOAT,
+    weather_description TEXT,
+    valid_from TIMESTAMP,
+    valid_to TIMESTAMP,
+    is_current BOOLEAN
+);
