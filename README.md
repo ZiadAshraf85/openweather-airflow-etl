@@ -57,11 +57,14 @@ CREATE TABLE weather_data_scd (
     valid_to TIMESTAMP,
     is_current BOOLEAN
 );
+```
 ---
 🧪 Sample SQL Queries
+```
 SELECT *
 FROM weather_data_scd
 WHERE is_current = true;
+```
 ---
 📁 Project Structure
 
