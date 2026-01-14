@@ -67,7 +67,7 @@ WHERE is_current = true;
 ```
 ---
 📁 Project Structure
-
+```
 openweather-airflow-etl/
 │
 ├── dags/
@@ -78,6 +78,7 @@ openweather-airflow-etl/
 │
 ├── requirements.txt
 └── README.md
+```
 ---
 🚀 How to Run
 
