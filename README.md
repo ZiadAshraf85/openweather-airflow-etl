@@ -80,39 +80,46 @@ openweather-airflow-etl/
 └── README.md
 ```
 ---
-🚀 How to Run
+## 🚀 How to Run
 
-1-Set up Apache Airflow
-2-Configure PostgreSQL
-3-Add your OpenWeather API Key
-4-Trigger the DAG from Airflow UI
-5-Query PostgreSQL to explore the data
----
-🔐 Security Notes
-🔑 API keys and credentials are NOT committed
-🛡️ Sensitive files are excluded using .gitignore
+1. Set up **Apache Airflow**
+2. Configure **PostgreSQL**
+3. Add your **OpenWeather API Key**
+4. Trigger the DAG from the **Airflow UI**
+5. Query PostgreSQL to explore the data
 
 ---
-🎯 What This Project Demonstrates
+## 🔐 Security Notes
 
-Building real-world ETL pipelines
-Workflow orchestration with Airflow
-Handling external APIs
-Data modeling with SCD Type 2
-Production-ready data engineering mindset
+- 🔑 API keys and credentials are **NOT committed**
+- 🛡️ Sensitive files are excluded using `.gitignore`
+
+
 ---
-👤 Author
+## 🎯 What This Project Demonstrates
 
-Ziad Ashraf
-Data Engineer | Software Instructor at ischool
-🔗 GitHub: https://github.com/ZiadAshraf85
-🔗 LinkedIn: linkedin.com/in/ziad-ashraf-34391824b
+- Building real-world ETL pipelines
+- Workflow orchestration with Apache Airflow
+- Handling external APIs
+- Data modeling using **SCD Type 2**
+- Production-ready data engineering mindset
+
 ---
-📚 Useful Resources
+## 👤 Author
 
-Apache Airflow Docs: https://airflow.apache.org/docs/
-OpenWeather API Docs: https://openweathermap.org/api
-PostgreSQL Docs: https://www.postgresql.org/docs/
-SCD Type 2 Explained: https://www.sqlshack.com/slowly-changing-dimensions-type-2/
+**Ziad Ashraf**  
+Data Engineer | Software Instructor at iSchool  
+
+🔗 GitHub: https://github.com/ZiadAshraf85  
+🔗 LinkedIn: https://www.linkedin.com/in/ziad-ashraf-34391824b
+
+---
+## 📚 Useful Resources
+
+- Apache Airflow Docs: https://airflow.apache.org/docs/
+- OpenWeather API Docs: https://openweathermap.org/api
+- PostgreSQL Docs: https://www.postgresql.org/docs/
+- SCD Type 2 Explained: https://www.sqlshack.com/slowly-changing-dimensions-type-2/
+
 ---
 
