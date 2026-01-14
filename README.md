@@ -57,11 +57,12 @@ CREATE TABLE weather_data_scd (
     valid_to TIMESTAMP,
     is_current BOOLEAN
 );
+---
 🧪 Sample SQL Queries
 SELECT *
 FROM weather_data_scd
 WHERE is_current = true;
-
+---
 📁 Project Structure
 
 openweather-airflow-etl/
@@ -74,7 +75,7 @@ openweather-airflow-etl/
 │
 ├── requirements.txt
 └── README.md
-
+---
 🚀 How to Run
 
 1-Set up Apache Airflow
@@ -82,12 +83,12 @@ openweather-airflow-etl/
 3-Add your OpenWeather API Key
 4-Trigger the DAG from Airflow UI
 5-Query PostgreSQL to explore the data
-
+---
 🔐 Security Notes
 🔑 API keys and credentials are NOT committed
 🛡️ Sensitive files are excluded using .gitignore
 
-
+---
 🎯 What This Project Demonstrates
 
 Building real-world ETL pipelines
@@ -95,19 +96,19 @@ Workflow orchestration with Airflow
 Handling external APIs
 Data modeling with SCD Type 2
 Production-ready data engineering mindset
-
+---
 👤 Author
 
 Ziad Ashraf
 Data Engineer | Software Instructor at ischool
 🔗 GitHub: https://github.com/ZiadAshraf85
 🔗 LinkedIn: linkedin.com/in/ziad-ashraf-34391824b
-
+---
 📚 Useful Resources
 
 Apache Airflow Docs: https://airflow.apache.org/docs/
 OpenWeather API Docs: https://openweathermap.org/api
 PostgreSQL Docs: https://www.postgresql.org/docs/
 SCD Type 2 Explained: https://www.sqlshack.com/slowly-changing-dimensions-type-2/
-
+---
 
